@@ -1,0 +1,14 @@
+---
+description: Keep project documentation in sync when changing gameplay, scenes, or builds
+alwaysApply: true
+---
+
+# Documentation
+
+When you implement features, edit gameplay, scenes, prefabs, Build Settings, or level flow in this Unity project:
+
+- Update [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) in the **same change** so scenes, script table, build order, and conventions stay accurate.
+- Update [README.md](README.md) if entry instructions, first scene to open, or high-level project description change.
+- Do not leave docs referring to removed scene names, wrong build order, obsolete scripts, or outdated level flow.
+
+Follow the **Documentation policy** and **Checklist** at the end of `docs/ARCHITECTURE.md` for what to refresh.
